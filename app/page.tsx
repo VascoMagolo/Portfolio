@@ -49,7 +49,7 @@ const projects = [
     description: "My personal digital space built with Next.js, Tailwind and a cat.",
     status: "doing", // Green
     tech: ["Next.js", "Tailwind", "Oneko.js"],
-    link: "https://github.com/VascoMagolo",
+    link: "https://github.com/Portfolio",
   },
 ];
 
