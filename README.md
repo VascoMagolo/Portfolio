@@ -1,4 +1,4 @@
-# Vasco Magolo - Personal Portfolio 🚀
+# Vasco Magolo - My Portfolio
 
 Welcome to the repository of my personal portfolio! This website was built to showcase my journey, projects, and interests in **IoT, Mobile Development, Embedded Systems, and Software**.
 
