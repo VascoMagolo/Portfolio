@@ -1,3 +1,4 @@
+'use client';
 import { 
   Github, 
   Linkedin, 
@@ -9,8 +10,7 @@ import {
   Smartphone, 
   Terminal
 } from "lucide-react";
-import Oneko from "./components/Oneko";
-
+import Snowfall from "react-snowfall";
 const personalInfo = {
   name: "Vasco Magolo",
   role: "IoT & Mobile Developer",
@@ -46,9 +46,9 @@ const projects = [
   },
   {
     title: "This Portfolio",
-    description: "My personal digital space built with Next.js, Tailwind and a cat.",
+    description: "My personal digital space built with Next.js, Tailwind",
     status: "doing", // Green
-    tech: ["Next.js", "Tailwind", "Oneko.js"],
+    tech: ["Next.js", "Tailwind"],
     link: "https://github.com/VascoMagolo/Portfolio",
   },
 ];
@@ -57,9 +57,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#050505] text-neutral-200 selection:bg-green-500/30 selection:text-green-200 font-sans px-4 py-8 md:py-16 relative overflow-x-hidden">
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#1f1f1f_1px,transparent_1px),linear-gradient(to_bottom,#1f1f1f_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-20 pointer-events-none" />
-
-      <Oneko />
-
+      <Snowfall snowflakeCount={100} color="#ffffff" />
       <div className="max-w-5xl mx-auto space-y-12 relative z-10">
         
         <section className="flex flex-col-reverse md:flex-row justify-between items-start gap-8 animate-fade-in-up">
